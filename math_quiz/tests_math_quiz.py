@@ -13,7 +13,7 @@ class TestMathQuizFunctions(unittest.TestCase):
                             f"Result {result} is not within the range {min_value}-{max_value}")
 
     def test_get_random_operator(self):
-        """Test if get_random_operator returns one of the valid operators."""
+        """Test if get_random_operator returns one of the valid operators ."""
         valid_operators = ['+', '-', '*']
         for _ in range(100):
             operator = get_random_operator()
