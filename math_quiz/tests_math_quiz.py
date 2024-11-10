@@ -4,7 +4,7 @@ from math_quiz import get_random_integer, get_random_operator, calculate_problem
 class TestMathQuizFunctions(unittest.TestCase):
 
     def test_get_random_integer(self):
-        """Test if get_random_integer returns an integer within the specified range."""
+        """Test if get_random_integer returns an integer within the specified range ."""
         min_value = 1
         max_value = 10
         for _ in range(100):
