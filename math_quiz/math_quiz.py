@@ -1,7 +1,7 @@
 import random
 
 def get_random_integer(min_value, max_value):
-    """Generate a random integer within the given range."""
+    """Generate a random integer within the given range ."""
     return random.randint(min_value, max_value)
 
 def get_random_operator():
